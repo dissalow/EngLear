@@ -19,3 +19,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71c6e8', end
 .main-title > p {
     padding-top: 1.5em;
 }
+
+.form{
+    margin: 10px 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #5cfff0;
+}
+.form > h3 {
+    text-align: center;
+}
+
+.form > form > input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
