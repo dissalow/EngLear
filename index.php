@@ -12,6 +12,33 @@
     <title>EngLear</title>
 </head>
 <body>
-    Hello
+    <header>
+        <nav>
+        </nav>
+    </header>
+    <section>
+    форма связи
+    </section>
+    <section>
+    английский цех для ваших целей
+    </section>
+    <section>
+    формат обоучения на курсах
+    </section>
+    <section>
+     карусель выбери курс
+    </section>
+    <section>
+    формат индивидуальных занятий
+    </section>
+    <section>   
+    карусель наши преподы
+    </section>
+    <section>
+    отзывы
+    </section>
+    <footer>
+
+    </footer>
 </body>
 </html>
