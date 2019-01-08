@@ -39,3 +39,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71c6e8', end
     border-radius: 4px;
     box-sizing: border-box;
 }
+
+.list{
+    padding-left: 0;
+    list-style: none;
+}
+
+.ico-travel{
+    background-image: url(/ico/backpack.png);
+}
