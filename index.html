@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css\bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css\bootstrap-grid.css">
     <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="css\main.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="js\bootstrap.bundle.min.js"></script>
@@ -14,8 +15,9 @@
 
     <title>EngLear</title>
 </head>
-<body class="container">
-    <header class="row">
+<body>
+    <header class="container">
+        <div class="row">
         <nav class="navbar navbar-expand-sm navbar-light col-sm-12">
             <a class="navbar-brand" href="#">englear</a>
 
@@ -31,11 +33,41 @@
                 </ul>
             </div>
         </nav>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 main-title">
+               <h1>Познай мир анйглийского</h1>
+                <p>Учись, работай, путешествуй, живи с английским!</p>
+            </div>
+        </div>
+        <div class="row pt30">
+            <div class="col-4">
+                <p>30 <br>учеников</p>
+            </div>
+            <div class="col-4">
+                <p>320 <br> курсов</p> </div>
+            <div class="col-4">
+                <p>5560 <br>учеников</p>   
+            </div>
+        </div>
+
+
+        
     </header>
 
-    <section>
-    форма связи
+    <section class="container">
+        <div class="form">
+            Ми подберем курс под твои цели
+            <form action="" method="post">
+                <input type="text" name="name">
+                <input type="email" name="mail">
+                <input type="tel" name="tel">
+                <input class="btn btn-primary" type="button" value="submit">
+            </form>
+        </div>
     </section>
+
+
     <section>
     английский цех для ваших целей
     </section>
