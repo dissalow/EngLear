@@ -45,6 +45,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71c6e8', end
     list-style: none;
 }
 
-.ico-travel{
-    background-image: url(/ico/backpack.png);
+.listing-img{
+    padding: 15px 0;
+}
+
+.listing-img > img{
+    display: block;
+    height: 64px; 
+    width: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.listing-img > li {
+    padding-top: 10px;
+    text-align: center;
 }
