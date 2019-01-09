@@ -6233,7 +6233,7 @@ a.close.disabled {
 }
 
 .carousel-indicators {
-  position: absolute;
+/*  position: absolute; */
   right: 0;
   bottom: 0;
   left: 0;
@@ -6250,15 +6250,16 @@ a.close.disabled {
 
 .carousel-indicators li {
   box-sizing: content-box;
+  border-radius: 50%;
   -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
-  margin-right: 3px;
-  margin-left: 3px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: grey;
   background-clip: padding-box;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
@@ -6273,7 +6274,10 @@ a.close.disabled {
 }
 
 .carousel-indicators .active {
+  background-color: rgb(175, 30, 30);
   opacity: 1;
+  width: 25px;
+  height: 25px;
 }
 
 .carousel-caption {

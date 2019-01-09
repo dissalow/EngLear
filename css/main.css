@@ -21,7 +21,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71c6e8', end
 }
 
 .form{
-    margin: 10px 10px;
+    margin: 10px 0px;
     border-radius: 5px;
     padding: 10px;
     background-color: #5cfff0;
@@ -66,8 +66,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71c6e8', end
 }
 
 .block-listing {
-    margin: 10px 15px;
-    background-color: #5cfff0;
+    margin: 10px 0px;
+    background-color: #ffffffc5;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     height: auto;
 }
 
@@ -85,4 +86,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71c6e8', end
 
 .block-listing > p {
     text-align: center;
+}
+
+.corousel-card {
+    padding: 20px 40px;
+    border-radius: 6px;
+    background: rgba(255, 248, 248, 0.801);
+}
+
+.format-list {
+    list-style: none;
 }
