@@ -60,3 +60,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71c6e8', end
     padding-top: 10px;
     text-align: center;
 }
+
+.block-heading {
+    text-align: center;
+}
+
+.block-listing {
+    margin: 10px 15px;
+    background-color: #5cfff0;
+    height: auto;
+}
+
+.block-listing > img{
+    display: block;
+    height: 64px; 
+    width: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-listing > h5 {
+    text-align: center;
+}
+
+.block-listing > p {
+    text-align: center;
+}
