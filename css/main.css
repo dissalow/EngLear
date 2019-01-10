@@ -97,3 +97,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71c6e8', end
 .format-list {
     list-style: none;
 }
+
+.corousel-card-teach {
+    padding: 20px 40px;
+    border-radius: 6px;
+    background: rgba(255, 248, 248, 0.801);
+}
+
+.corousel-card-teach > img {
+    display: block;
+    height: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
